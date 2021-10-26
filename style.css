@@ -1,0 +1,68 @@
+
+  body {
+    background-color: lightgrey;
+    margin: 33px;
+    color: #333;
+    font-family: monospace;
+    }
+  h1 {
+    font-family: monospace;
+    }
+
+
+  a {
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    font-size: 1.3em;
+    }
+  a:visited {
+    color: blue;
+    }
+  a:hover {
+    color: blue;
+    }
+  pre {
+    font: 0.9em/1.3em "Courier New", Courier;
+    margin: 13px 0;
+    color: #777;
+    }
+  pre img {
+    display: inline;
+    }
+  img {
+    margin: 13px 0;
+    width: 3em;
+    margin-bottom: -0.2em;
+    }
+
+    /* #border {
+        border-style: dashed;
+        border-width: 10px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 90%;
+        min-height: 90%;
+        z-index: 15;
+    } */
+
+    #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      opacity: .6;
+      filter: grayscale(100%);
+      pointer-events: none;
+    }
+
+    /* h1 {
+      text-align: right;
+      position: fixed;
+      bottom: 45px;
+      right: 45px;
+      z-index: -2;
+    } */
